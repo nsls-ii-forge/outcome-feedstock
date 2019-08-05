@@ -19,7 +19,8 @@ build:
   noarch: python
 
 requirements:
-  host:
+  build:
+    - python
     - pip
     - attrs
   run:
