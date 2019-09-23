@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: Capture the outcome of Python function calls.
+Summary: Capture the outcome of Python function calls
 
 Capture the outcome of Python function calls.
 
@@ -80,5 +80,4 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@nicoddemus](https://github.com/nicoddemus/)
 

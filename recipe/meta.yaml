@@ -5,13 +5,12 @@
 {% set hash_value = "9d58c05db36a900ce60c6da0167d76e28869f64b338d60fa3a61841cfa54ac71" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  fn: '{{ name }}-{{ version }}.{{ file_ext }}'
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
-  '{{ hash_type }}': '{{ hash_value }}'
+  {{ hash_type }}: {{ hash_value }}
 
 build:
   noarch: python
@@ -35,10 +34,6 @@ about:
   home: https://github.com/python-trio/outcome
   license: MIT
   license_family: MIT
-  license_file: 'LICENSE'
-  summary: Capture the outcome of Python function calls.
-  description: "Capture the outcome of Python function calls."
-
-extra:
-  recipe-maintainers:
-    - nicoddemus
+  license_file: LICENSE
+  summary: Capture the outcome of Python function calls
+  description: Capture the outcome of Python function calls.
