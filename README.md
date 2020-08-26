@@ -5,7 +5,7 @@ Home: https://github.com/python-trio/outcome
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Capture the outcome of Python function calls
 
